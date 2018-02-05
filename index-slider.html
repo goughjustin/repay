@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Apland - App Landing Page | Slider Version</title>
+
+    <!-- Favicon  -->
+    <link rel="shortcut icon" href="img/core-img/favicon.ico">
+
+    <!-- ::::::::::::::::::::::::::: All CSS Files ::::::::::::::::::::::::::: -->
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Skin css -->
+    <link rel="stylesheet" href="css/skin.css">
+
+    <!--[if IE]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+    <!-- This Code Only for Demo Purpose. Please Delete this Code for Make your Site Faster :: Code Start Here  -->
+    <div class="onepage_demo_area">
+        <div class="onepage_demo_switcher">
+            <i class="pe-7s-menu" aria-hidden="true"></i>
+        </div>
+        <div class="onepage_all_demo_container">
+            <div class="onepage_single_demo">
+                <a href="index.html" target="_blank">
+                    <img src="img/demo-img/default.png" alt=""> Default Version
+                </a>
+            </div>
+            <div class="onepage_single_demo">
+                <a href="index-image.html" target="_blank">
+                    <img src="img/demo-img/bg-image.png" alt=""> Background Image
+                </a>
+            </div>
+            <div class="onepage_single_demo">
+                <a href="index-slider.html" target="_blank">
+                    <img src="img/demo-img/slider.png" alt=""> Slideshow
+                </a>
+            </div>
+            <div class="onepage_single_demo">
+                <a href="index-video.html" target="_blank">
+                    <img src="img/demo-img/video.png" alt=""> Background Video
+                </a>
+            </div>
+            <div class="onepage_single_demo">
+                <a href="index-subscribe.html" target="_blank">
+                    <img src="img/demo-img/subs.png" alt=""> Subscribe Form
+                </a>
+            </div>
+            <div class="onepage_single_demo">
+                <a href="index-rtl.html" target="_blank">
+                    <img src="img/demo-img/rtl.png" alt=""> RTL Version
+                </a>
+            </div>
+            <div class="onepage_single_demo">
+                <a href="index-boxed.html" target="_blank">
+                    <img src="img/demo-img/boxed.png" alt=""> Boxed Version
+                </a>
+            </div>
+            <div class="onepage_single_demo">
+                <a href="index-fluid.html" target="_blank">
+                    <img src="img/demo-img/full.png" alt=""> Full Width Version
+                </a>
+            </div>
+            <div class="onepage_single_demo">
+                <a href="about.html" target="_blank">
+                    <img src="img/demo-img/about.png" alt=""> About Us
+                </a>
+            </div>
+            <div class="onepage_single_demo">
+                <a href="blog-sidebar.html" target="_blank">
+                    <img src="img/demo-img/blog.png" alt=""> Blog
+                </a>
+            </div>
+            <div class="onepage_single_demo">
+                <a href="single.html" target="_blank">
+                    <img src="img/demo-img/blog-single.png" alt=""> Blog Details
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- This Code Only for Demo Purpose. Please Delete this Code for Make your Site Faster :: Code End Here  -->
+
+    <!-- Color Picker Start -->
+    <div class="color_picker_area">
+        <div class="color_picker_switcher">
+            <i class="pe-7s-paint-bucket"></i>
+        </div>
+        <form>
+            <h4>Pick a Color</h4>
+            <input class="select_opt" type="radio" name="cor" id="cor1" value="purple">
+            <label for="cor1" class="cor1"></label>
+            <input class="select_opt" type="radio" name="cor" id="cor2" value="">
+            <label for="cor2" class="cor2"></label>
+            <input class="select_opt" type="radio" name="cor" id="cor3" value="green">
+            <label for="cor3" class="cor3"></label>
+            <input class="select_opt" type="radio" name="cor" id="cor4" value="orange">
+            <label for="cor4" class="cor4"></label>
+            <input class="select_opt" type="radio" name="cor" id="cor5" value="yellow">
+            <label for="cor5" class="cor5"></label>
+            <input class="select_opt" type="radio" name="cor" id="cor6" value="deep-orange">
+            <label for="cor6" class="cor6"></label>
+            <input class="select_opt" type="radio" name="cor" id="cor7" value="red">
+            <label for="cor7" class="cor7"></label>
+            <input class="select_opt" type="radio" name="cor" id="cor8" value="cyan">
+            <label for="cor8" class="cor8"></label>
+            <input class="select_opt" type="radio" name="cor" id="cor9" value="teal">
+            <label for="cor9" class="cor9"></label>
+            <input class="select_opt" type="radio" name="cor" id="cor10" value="pink">
+            <label for="cor10" class="cor10"></label>
+        </form>
+    </div>
+    <!-- Color Picker End -->
+
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="apland-load"></div>
+    </div>
+
+    <!-- ::::::::::::::::::::::::::: Header Start ::::::::::::::::::::::::::: -->
+    <header class="header_area">
+        <!-- Main Header Area Start -->
+        <div class="main_header_area animated">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-4 col-sm-2">
+                        <!-- Logo Area:: For better view in all device please use logo image max-width 70px -->
+                        <div class="logo_area">
+                            <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="col-8 col-sm-10 text-right">
+                        <!-- Menu Area Start -->
+                        <div class="main_menu_area d-inline-block">
+                            <div class="mainmenu">
+                                <nav>
+                                    <ul id="nav">
+                                        <li class="current_page_item"><a href="#home">Home</a></li>
+                                        <li><a href="#">Page <i class="fa fa-angle-down"></i></a>
+                                            <ul class="sub-menu">
+                                                <li><a href="index.html">Default Version</a></li>
+                                                <li><a href="index-image.html">Image Version</a></li>
+                                                <li><a href="index-slider.html">Slide Version</a></li>
+                                                <li><a href="index-video.html">Video Background</a></li>
+                                                <li><a href="index-subscribe.html">Subscribe Form</a></li>
+                                                <li><a href="index-rtl.html">RTL Version</a></li>
+                                                <li><a href="index-boxed.html">Box Version</a></li>
+                                                <li><a href="index-fluid.html">Full Width Version</a></li>
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="blog-sidebar.html">Blog</a></li>
+                                                <li><a href="single.html">Blog Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#features">Features</a></li>
+                                        <li><a href="#price">Price</a></li>
+                                        <li><a href="#download">Download</a></li>
+                                        <li><a href="#contact">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- Menu Area End -->
+
+                        <div class="header_signup_in_btn d-inline-block">
+                            <a href="#">Signup</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Header Area End -->
+    </header>
+    <!-- ::::::::::::::::::::::::::: Header End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: Welcome Area Start ::::::::::::::::::::::::::: -->
+    <section class="welcome_slider" id="home">
+        <div class="welcome_slides">
+
+            <!-- Single Slide Area Start -->
+            <div class="single_slide text-center" style="background-image: url(img/bg-pattern/slider-1.jpg);">
+                <div class="table">
+                    <div class="table_cell">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="welcome_text_area">
+                                        <h2>Create Something</h2>
+                                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page. Put your app sales or promotions into next level with it.</p>
+                                        <a href="#download" class="btn btn-default btn-lg"><i class="icofont icofont-download-alt"></i>download now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Slide Area Start -->
+            <div class="single_slide text-center" style="background-image: url(img/bg-pattern/slider-2.jpg);">
+                <div class="table">
+                    <div class="table_cell">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="welcome_text_area">
+                                        <h2>Dreams Never Sleeps</h2>
+                                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page. Put your app sales or promotions into next level with it.</p>
+                                        <a href="#download" class="btn btn-default btn-lg"><i class="icofont icofont-download-alt"></i>download now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ::::::::::::::::::::::::::: Welcome Area End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: Product Area Start ::::::::::::::::::::::::::: -->
+    <section class="about_area section_padding_100_70" id="product">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <!-- Section Heading Start -->
+                    <div class="section_heading">
+                        <h3>Bright<span> Features</span></h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page. Put your app sales or promotions into next level with it.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="about_product_discription">
+                        <div class="row">
+                            <!-- Single About Part Area Start-->
+                            <div class="col-12 col-sm-6 col-md-12">
+                                <div class="single_about_part wow fadeInUp" data-wow-delay="0.2s">
+                                    <div class="feature_icon">
+                                        <i class="pe-7s-leaf" aria-hidden="true"></i>
+                                    </div>
+                                    <h3>Simple &amp; Light</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <!-- Single About Part Area Start-->
+                            <div class="col-12 col-sm-6 col-md-12">
+                                <div class="single_about_part wow fadeInUp" data-wow-delay="0.4s">
+                                    <div class="feature_icon">
+                                        <i class="pe-7s-bicycle" aria-hidden="true"></i>
+                                    </div>
+                                    <h3>Flexible</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <!-- Single About Part Area Start-->
+                            <div class="col-12 col-sm-6 col-md-12">
+                                <div class="single_about_part wow fadeInUp" data-wow-delay="0.6s">
+                                    <div class="feature_icon">
+                                        <i class="pe-7s-rocket" aria-hidden="true"></i>
+                                    </div>
+                                    <h3>Super Fast</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <!-- Single About Part Area Start-->
+                            <div class="col-12 col-sm-6 col-md-12">
+                                <div class="single_about_part wow fadeInUp" data-wow-delay="0.8s">
+                                    <div class="feature_icon">
+                                        <i class="pe-7s-science" aria-hidden="true"></i>
+                                    </div>
+                                    <h3>Stunning Design</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- About Product Thumb Area Start -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="about_product_thumb text-center wow fadeInLeft" data-wow-delay="0.2s">
+                        <img src="img/bg-pattern/features-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ::::::::::::::::::::::::::: Product Area End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: Video Area Start ::::::::::::::::::::::::::: -->
+    <section class="video_area" style="background-image: url(img/bg-pattern/video-img.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Video Area Text -->
+                    <div class="video_area_text text-center section_padding_100">
+                        <h2>Introducing Apland App</h2>
+                        <p>Watch video. It's takes 24sec only.</p>
+                        <a href="https://www.youtube.com/watch?v=6NC_ODHu5jg" class="video_btn"><i class="pe-7s-play" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ::::::::::::::::::::::::::: Video Area End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: About App Area Start ::::::::::::::::::::::::::: -->
+    <section class="about_app_area section_padding_100">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+
+                <!-- About Image Start -->
+                <div class="col-12 col-md-6 col-lg-5">
+                    <div class="about_image">
+                        <div class="big_thumb">
+                            <img src="img/bg-pattern/about-app-1.png" alt="">
+                        </div>
+                        <div class="small_thumb wow fadeInLeft" data-wow-delay="0.2s">
+                            <img src="img/bg-pattern/about-app-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Text Start -->
+                <div class="col-12 col-md-6 col-lg-5">
+                    <div class="about_us_text_area">
+                        <h3>Modern, User Friendly &amp; Powerful Interface</h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page. Put your app sales or promotions into next level with it.</p>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page. Put your app sales or promotions into next level with it.</p>
+                        <a href="#" class="btn btn-lg">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ::::::::::::::::::::::::::: About App Area End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: Features Area Start ::::::::::::::::::::::::::: -->
+    <div class="more_features_area section_padding_100_70" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading Start -->
+                    <div class="section_heading">
+                        <h3>Using <span>Benefits</span></h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page. Put your app sales or promotions into next level with it.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Single Benifits Area Start -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single_benifits active">
+                        <div class="icon_box">
+                            <i class="pe-7s-pendrive" aria-hidden="true"></i>
+                        </div>
+                        <h3>Simple &amp; Light</h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
+                    </div>
+                </div>
+                <!-- Single Benifits Area Start -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single_benifits">
+                        <div class="icon_box">
+                            <i class="pe-7s-rocket" aria-hidden="true"></i>
+                        </div>
+                        <h3>Super Fast</h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
+                    </div>
+                </div>
+                <!-- Single Benifits Area Start -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single_benifits">
+                        <div class="icon_box">
+                            <i class="pe-7s-science" aria-hidden="true"></i>
+                        </div>
+                        <h3>Stunning Design</h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
+                    </div>
+                </div>
+                <!-- Single Benifits Area Start -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single_benifits">
+                        <div class="icon_box">
+                            <i class="pe-7s-sun" aria-hidden="true"></i>
+                        </div>
+                        <h3>Weather Update</h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
+                    </div>
+                </div>
+                <!-- Single Benifits Area Start -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single_benifits">
+                        <div class="icon_box">
+                            <i class="pe-7s-box2" aria-hidden="true"></i>
+                        </div>
+                        <h3>Super Responsive</h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
+                    </div>
+                </div>
+                <!-- Single Benifits Area Start -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single_benifits">
+                        <div class="icon_box">
+                            <i class="pe-7s-check" aria-hidden="true"></i>
+                        </div>
+                        <h3>100% Clean Code</h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
+                    </div>
+                </div>
+                <!-- Single Benifits Area Start -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single_benifits">
+                        <div class="icon_box">
+                            <i class="pe-7s-paint-bucket" aria-hidden="true"></i>
+                        </div>
+                        <h3>10+ Color Variations</h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
+                    </div>
+                </div>
+                <!-- Single Benifits Area Start -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single_benifits">
+                        <div class="icon_box">
+                            <i class="pe-7s-look" aria-hidden="true"></i>
+                        </div>
+                        <h3>Retina Ready</h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ::::::::::::::::::::::::::: Features Area End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: Work Process Area Start ::::::::::::::::::::::::::: -->
+    <section class="work_process_area section_padding_100_70">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading Start -->
+                    <div class="section_heading">
+                        <h3>How it <span>Works</span></h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page. Put your app sales or promotions into next level with it.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single Work Step -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single_work_step wow fadeInLeft" data-wow-delay="0.1s">
+                        <img src="img/core-img/installation.svg" alt="">
+                        <h3 class="mb-0">Install</h3>
+                    </div>
+                </div>
+                <!-- Single Work Step -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single_work_step wow fadeInLeft" data-wow-delay="0.6s">
+                        <img src="img/core-img/register.svg" alt="">
+                        <h3 class="mb-0">Register</h3>
+                    </div>
+                </div>
+                <!-- Single Work Step -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single_work_step wow fadeInLeft" data-wow-delay="1.1s">
+                        <img src="img/core-img/user.svg" alt="">
+                        <h3 class="mb-0">Setup Your Profile</h3>
+                    </div>
+                </div>
+                <!-- Single Work Step -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single_work_step wow fadeInLeft" data-wow-delay="1.6s">
+                        <img src="img/core-img/approve.svg" alt="">
+                        <h3 class="mb-0">Done</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ::::::::::::::::::::::::::: Work Process Area End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: Testimonial Area Start ::::::::::::::::::::::::::: -->
+    <div class="testimonial_area section_padding_100" style="background-image: url(img/bg-pattern/testimonials.jpg);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <div class="testimonials_area">
+                        <div class="testimonials">
+                            <!-- Single testimonial area start  -->
+                            <div class="single_testimonial_area text-center">
+                                <!-- Single testimonial thumb  -->
+                                <div class="testimonial_author_thumb">
+                                    <img src="img/advisor-img/testimonial-1.jpg" alt="">
+                                </div>
+                                <!-- Single testimonial text  -->
+                                <div class="testimonial_text">
+                                    <p>Awesome &amp; Amazing Work. Very Well Organised HTML Template with high quality stunning design. Thank you very much!</p>
+                                    <!--  Rating  -->
+                                    <div class="rating">
+                                        <i class="pe-7s-star"></i>
+                                        <i class="pe-7s-star"></i>
+                                        <i class="pe-7s-star"></i>
+                                        <i class="pe-7s-star"></i>
+                                        <i class="pe-7s-star"></i>
+                                    </div>
+                                    <div class="testimonial_author_name">
+                                        <h5>MD NAZRUL ISLAM</h5>
+                                        <h6>CEO &amp; Founder, Designing World</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single testimonial area start  -->
+                            <div class="single_testimonial_area text-center">
+                                <!-- Single testimonial thumb  -->
+                                <div class="testimonial_author_thumb">
+                                    <img src="img/advisor-img/testimonial-2.jpg" alt="">
+                                </div>
+                                <!-- Single testimonial text  -->
+                                <div class="testimonial_text">
+                                    <p>Awesome &amp; Amazing Work. Very Well Organised HTML Template with high quality stunning design. Thank you very much!</p>
+                                    <!--  Rating  -->
+                                    <div class="rating">
+                                        <i class="pe-7s-star"></i>
+                                        <i class="pe-7s-star"></i>
+                                        <i class="pe-7s-star"></i>
+                                        <i class="pe-7s-star"></i>
+                                        <i class="pe-7s-star"></i>
+                                    </div>
+                                    <div class="testimonial_author_name">
+                                        <h5>JANNATUN ISLAM</h5>
+                                        <h6>CEO &amp; Founder, Designing World</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ::::::::::::::::::::::::::: Testimonial Area End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: App Screenshot Area Start ::::::::::::::::::::::::::: -->
+    <section class="app_screenshot_area section_padding_100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading Start -->
+                    <div class="section_heading">
+                        <h3>App <span>Screenshots</span></h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page. Put your app sales or promotions into next level with it.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <!-- App Screenshot Slider Area -->
+                    <div class="app_screenshots">
+                        <!-- Single Slide -->
+                        <div class="single_screenshot">
+                            <img src="img/screenshot/01.jpg" alt="">
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single_screenshot">
+                            <img src="img/screenshot/03.jpg" alt="">
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single_screenshot">
+                            <img src="img/screenshot/04.jpg" alt="">
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single_screenshot">
+                            <img src="img/screenshot/07.jpg" alt="">
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single_screenshot">
+                            <img src="img/screenshot/09.jpg" alt="">
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single_screenshot">
+                            <img src="img/screenshot/10.jpg" alt="">
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single_screenshot">
+                            <img src="img/screenshot/11.jpg" alt="">
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single_screenshot">
+                            <img src="img/screenshot/12.jpg" alt="">
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single_screenshot">
+                            <img src="img/screenshot/14.jpg" alt="">
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single_screenshot">
+                            <img src="img/screenshot/15.jpg" alt="">
+                        </div>
+                        <!-- Single Slide -->
+                        <div class="single_screenshot">
+                            <img src="img/screenshot/17.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ::::::::::::::::::::::::::: App Screenshot Area End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: Price and Plans Area Start ::::::::::::::::::::::::::: -->
+    <div class="price_plan_area section_padding_100_70" id="price">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading Start -->
+                    <div class="section_heading">
+                        <h3><span>Pricing</span> Plan</h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page. Put your app sales or promotions into next level with it.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single Price Plan Area Start -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single_price_plan">
+                        <div class="title">
+                            <h3>Start-up</h3>
+                            <p>Start a trial</p>
+                        </div>
+                        <div class="price">
+                            <h4>$0</h4>
+                        </div>
+                        <div class="description">
+                            <p>Duration: 7days</p>
+                            <p>Free Registration</p>
+                            <p>10 Features</p>
+                            <p>No Hidden Fees</p>
+                            <p>100+ Video Tuts</p>
+                            <p>No Tools</p>
+                        </div>
+                        <div class="button">
+                            <a class="btn btn-md" href="#" role="button">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Price Plan Area Start -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single_price_plan active">
+                        <div class="title">
+                            <h3>Premium</h3>
+                            <p>For Small Business Team</p>
+                        </div>
+                        <div class="price">
+                            <h4>$29</h4>
+                        </div>
+                        <div class="description">
+                            <p>Duration: 3 Month</p>
+                            <p>Free Registration</p>
+                            <p>50 Features</p>
+                            <p>No Hidden Fees</p>
+                            <p>150+ Video Tuts</p>
+                            <p>5 Tools</p>
+                        </div>
+                        <div class="button">
+                            <a class="btn btn-md" href="#" role="button">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Price Plan Area Start -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single_price_plan">
+                        <div class="title">
+                            <h3>Pro</h3>
+                            <p>Unlimited Possibilities</p>
+                        </div>
+                        <div class="price">
+                            <h4>$79</h4>
+                        </div>
+                        <div class="description">
+                            <p>Duration: 1 year</p>
+                            <p>Free Registration</p>
+                            <p>Unlimited Features</p>
+                            <p>No Hidden Fees</p>
+                            <p>Unlimited Video Tuts</p>
+                            <p>Unlimited Tools</p>
+                        </div>
+                        <div class="button">
+                            <a class="btn btn-md" href="#" role="button">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ::::::::::::::::::::::::::: Price and Plans Area End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: Total User Area Start ::::::::::::::::::::::::::: -->
+    <section class="total_subscriber_area section_padding_100" style="background-image: url(img/bg-pattern/call-to-action.jpg);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <!-- Total User Text Start -->
+                    <div class="total_subscriber_text">
+                        <h3><span class="counter">12,89,1476</span> User have been using our Apps successfully.</h3>
+                        <a href="#download" class="btn btn-lg">Get Started Today</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ::::::::::::::::::::::::::: Total User Area End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: Our Advisor Area Start ::::::::::::::::::::::::::: -->
+    <section class="our_advisor_area section_padding_100_70" id="advisor">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading Start -->
+                    <div class="section_heading">
+                        <h3>Creative <span>Team</span></h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page. Put your app sales or promotions into next level with it.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <!-- Single advisor profile area start -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single_advisor_profile">
+                        <!-- Single advisor profile thumb -->
+                        <div class="advisor_thumb">
+                            <img src="img/advisor-img/advisor-1.jpg" alt="">
+                        </div>
+                        <!-- Single advisor profile details -->
+                        <div class="single_advisor_details_info">
+                            <h5>Samantha Sarah</h5>
+                            <p class="designation">Founder &amp; CEO</p>
+                            <div class="advisor-line"></div>
+                            <p>Sarah is creative, honest &amp; hard-working person.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single advisor profile area start -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single_advisor_profile">
+                        <!-- Single advisor profile thumb -->
+                        <div class="advisor_thumb">
+                            <img src="img/advisor-img/advisor-2.jpg" alt="">
+                        </div>
+                        <!-- Single advisor profile details -->
+                        <div class="single_advisor_details_info">
+                            <h5>Nazrul Islam</h5>
+                            <p class="designation">Co-founder</p>
+                            <div class="advisor-line"></div>
+                            <p>Sarah is creative, honest &amp; hard-working person.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single advisor profile area start -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single_advisor_profile">
+                        <!-- Single advisor profile thumb -->
+                        <div class="advisor_thumb">
+                            <img src="img/advisor-img/advisor-3.jpg" alt="">
+                        </div>
+                        <!-- Single advisor profile details -->
+                        <div class="single_advisor_details_info">
+                            <h5>Riyadh Khan</h5>
+                            <p class="designation">General Manager</p>
+                            <div class="advisor-line"></div>
+                            <p>Sarah is creative, honest &amp; hard-working person.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single advisor profile area start -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single_advisor_profile">
+                        <!-- Single advisor profile thumb -->
+                        <div class="advisor_thumb">
+                            <img src="img/advisor-img/advisor-4.jpg" alt="">
+                        </div>
+                        <!-- Single advisor profile details -->
+                        <div class="single_advisor_details_info">
+                            <h5>Shaila Afrin</h5>
+                            <p class="designation">Financial Manager</p>
+                            <div class="advisor-line"></div>
+                            <p>Sarah is creative, honest &amp; hard-working person.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ::::::::::::::::::::::::::: Our advisor Area End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: FAQ Area Start ::::::::::::::::::::::::::: -->
+    <section class="faq_area section_padding_100" id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading Start -->
+                    <div class="section_heading">
+                        <h3><span>Some</span> FAQ</h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page. Put your app sales or promotions into next level with it.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-8 clearfix">
+                    <div class="accordions" id="accordion2" role="tablist" aria-multiselectable="true">
+
+                        <!-- single accordian area start -->
+                        <div class="panel single-accordion">
+                            <h5><a role="button" class="collapsed" aria-expanded="true" aria-controls="six" data-toggle="collapse" data-parent="#accordion2" href="#six">How can I install this app?<span class="accor-open"><i class="icofont icofont-rounded-down"></i></span><span class="accor-close"><i class="icofont icofont-rounded-up"></i></span></a></h5>
+                            <div id="six" class="accordion-content collapse">
+                                <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+                            </div>
+                        </div>
+
+                        <!-- single accordian area start -->
+                        <div class="panel single-accordion">
+                            <h5>
+                                <a role="button" class="collapsed" aria-expanded="true" aria-controls="seven" data-parent="#accordion2" data-toggle="collapse" href="#seven">Where can I find out about events?
+                                       <span class="accor-open"><i class="icofont icofont-rounded-down"></i></span>
+                                        <span class="accor-close"><i class="icofont icofont-rounded-up"></i></span>
+                                    </a>
+                            </h5>
+                            <div id="seven" class="accordion-content collapse">
+                                <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+                            </div>
+                        </div>
+
+                        <!-- single accordian area start -->
+                        <div class="panel single-accordion">
+                            <h5>
+                                <a role="button" aria-expanded="true" aria-controls="eight" class="collapsed" data-parent="#accordion2" data-toggle="collapse" href="#eight">The apps isn't installing? 
+                                        <span class="accor-open"><i class="icofont icofont-rounded-down"></i></span>
+                                        <span class="accor-close"><i class="icofont icofont-rounded-up"></i></span>
+                                    </a>
+                            </h5>
+                            <div id="eight" class="accordion-content collapse">
+                                <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+                            </div>
+                        </div>
+
+                        <!-- single accordian area start -->
+                        <div class="panel single-accordion">
+                            <h5>
+                                <a role="button" aria-expanded="true" aria-controls="nine" class="collapsed" data-parent="#accordion2" data-toggle="collapse" href="#nine">Contact form isn't working?
+                                        <span class="accor-open"><i class="icofont icofont-rounded-down"></i></span>
+                                        <span class="accor-close"><i class="icofont icofont-rounded-up"></i></span>
+                                    </a>
+                            </h5>
+                            <div id="nine" class="accordion-content collapse">
+                                <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <!-- Can't Find Answer Area -->
+                    <div class="find_answer_area">
+                        <h5>Can't find suitable answer?</h5>
+                        <p>Ask our support team</p>
+                        <a href="#"><i class="icofont icofont-social-twitter"></i> Tweet Us</a>
+                        <a href="#contact"><i class="icofont icofont-mail"></i> Mail Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ::::::::::::::::::::::::::: FAQ Area End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: Newsletter Area Start ::::::::::::::::::::::::::: -->
+    <section class="newsletter_area section_padding_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading Start -->
+                    <div class="section_heading">
+                        <h3>Subscribe to our <span>newsletter</span> <br> and get update.</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <div class="newsletter-form-area text-center">
+                        <form action="#" method="get">
+                            <div class="form-group d-inline-block">
+                                <input type="text" class="form-control" id="Email2" placeholder="Your Email Address" required>
+                            </div>
+                            <button type="submit" class="btn">Confirm</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ::::::::::::::::::::::::::: Newsletter Area End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: Timeline Area Start ::::::::::::::::::::::::::: -->
+    <section class="timeline_area section_padding_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading Start -->
+                    <div class="section_heading">
+                        <h3>Our <span>History</span></h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page. Put your app sales or promotions into next level with it.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="history_timeline_area">
+
+                        <!-- Single Timeline Area Start -->
+                        <div class="single_timeline_block even-item clearfix">
+                            <div class="timeline_icon">
+                                <i class="icofont icofont-users"></i>
+                            </div>
+                            <div class="timeline_text_content">
+                                <h4>Reach 200k Users</h4>
+                                <h6>01 January 2017</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt numquam fugiat, vitae facere. Provident odio saepe iure, commodi doloribus architecto.</p>
+                            </div>
+                        </div>
+
+                        <!-- Single Timeline Area Start -->
+                        <div class="single_timeline_block odd-item clearfix">
+                            <div class="timeline_icon">
+                                <i class="icofont icofont-exchange"></i>
+                            </div>
+                            <div class="timeline_text_content">
+                                <h4>Update Version 1.3.0</h4>
+                                <h6>21 December 2016</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt numquam fugiat, vitae facere. Provident odio saepe iure, commodi doloribus architecto.</p>
+                            </div>
+                        </div>
+
+                        <!-- Single Timeline Area Start -->
+                        <div class="single_timeline_block even-item clearfix">
+                            <div class="timeline_icon">
+                                <i class="icofont icofont-bug"></i>
+                            </div>
+                            <div class="timeline_text_content">
+                                <h4>Fix bugs</h4>
+                                <h6>12 November 2016</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt numquam fugiat, vitae facere. Provident odio saepe iure, commodi doloribus architecto.</p>
+                            </div>
+                        </div>
+
+                        <!-- Single Timeline Area Start -->
+                        <div class="single_timeline_block odd-item clearfix">
+                            <div class="timeline_icon">
+                                <i class="icofont icofont-users-social"></i>
+                            </div>
+                            <div class="timeline_text_content">
+                                <h4>Reach 100k Community Members</h4>
+                                <h6>04 November 2016</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt numquam fugiat, vitae facere. Provident odio saepe iure, commodi doloribus architecto.</p>
+                            </div>
+                        </div>
+
+                        <!-- Single Timeline Area Start -->
+                        <div class="single_timeline_block even-item clearfix">
+                            <div class="timeline_icon">
+                                <i class="icofont icofont-power-zone"></i>
+                            </div>
+                            <div class="timeline_text_content">
+                                <h4>Make more powerful and stable</h4>
+                                <h6>28 October 2016</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt numquam fugiat, vitae facere. Provident odio saepe iure, commodi doloribus architecto.</p>
+                            </div>
+                        </div>
+
+                        <!-- Single Timeline Area Start -->
+                        <div class="single_timeline_block odd-item clearfix">
+                            <div class="timeline_icon">
+                                <i class="icofont icofont-paper-plane"></i>
+                            </div>
+                            <div class="timeline_text_content">
+                                <h4>Initial Release</h4>
+                                <h6>25 October 2016</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt numquam fugiat, vitae facere. Provident odio saepe iure, commodi doloribus architecto.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ::::::::::::::::::::::::::: Timeline Area End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: Download App Area Start ::::::::::::::::::::::::::: -->
+    <div class="download_app_area section_padding_100" id="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading Start -->
+                    <div class="section_heading clearfix">
+                        <h3>Download App</h3>
+                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page. Put your app sales or promotions into next level with it.</p>
+                    </div>
+                    <!-- Download Text Area -->
+                    <div class="download_app_text text-center">
+                        <a href="#" class="btn btn-lg"><i class="icofont icofont-brand-android-robot"></i> <span>Play Store</span></a>
+                        <a href="#" class="btn btn-lg"><i class="icofont icofont-brand-apple"></i> <span>App Store</span></a>
+                        <a href="#" class="btn btn-lg"><i class="icofont icofont-brand-windows"></i> <span>Windows Store</span></a>
+                        <!-- Download Image Area -->
+                        <div class="download_img  wow fadeInDown" data-wow-delay="0.2s">
+                            <img src="img/bg-pattern/download-mobile.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ::::::::::::::::::::::::::: Download App Area End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: Message Now Area Start ::::::::::::::::::::::::::: -->
+    <section class="message_now_area section_padding_100_70" id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <!-- Message Title -->
+                    <div class="message_title">
+                        <!-- Section Heading Start -->
+                        <div class="section_heading">
+                            <h3><span>Write</span> Us</h3>
+                            <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page. Put your app sales or promotions into next level with it.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact_from">
+                        <form action="mail.php" method="post" id="main_contact_form">
+                            <!-- Message Input Area Start -->
+                            <div class="contact_input_area">
+                                <div id="success_fail_info"></div>
+                                <div class="row">
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" required>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Your Subject" required>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <input type="number" class="form-control" name="number" id="number" placeholder="Your Number *" required>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-12">
+                                        <div class="form-group textarea">
+                                            <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Your Message *" required></textarea>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-12">
+                                        <button type="submit" class="btn">SEND MESSAGE</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Message Input Area End -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ::::::::::::::::::::::::::: Message Now Area Start ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: Map Area Start ::::::::::::::::::::::::::: -->
+    <div class="map_contact_address_area">
+        <!-- Map Area Start -->
+        <div class="map_area" id="googleMap"></div>
+    </div>
+    <!-- ::::::::::::::::::::::::::: Map Area End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: Footer Area Start ::::::::::::::::::::::::::: -->
+    <footer class="footer_area">
+        <!-- Bottom Footer Area Start -->
+        <div class="footer_bottom_area">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Social Area Start -->
+                    <div class="col-12">
+                        <div class="footer_social_area">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                            <a href="#"><i class="fa fa-skype"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                        <!-- Footer Menu Area Start -->
+                        <div class="footer_menu">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Corporate Sale</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Term &amp; Conditions</a></li>
+                                <li><a href="#">Help Center</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_copywrite_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Footer Copwrite Area -->
+                        <div class="footer_bottom text-center">
+                            <p>Made with <i class="fa fa-heart"></i> by <a href="#">Designing World</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ::::::::::::::::::::::::::: Footer Area End ::::::::::::::::::::::::::: -->
+
+    <!-- ::::::::::::::::::::::::::: All jQuery Plugins ::::::::::::::::::::::::::: -->
+
+    <!-- jQuery (necessary for all JavaScript plugins) -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Owl Carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.min.js"></script>
+    <!-- Google Maps js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk9KNSL1jTv4MY9Pza6w8DJkpI_nHyCnk" type="text/javascript"></script>
+    <script src="js/map-active.js"></script>
+    <!-- Active js -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
