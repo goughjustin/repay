@@ -133,41 +133,33 @@
                         <div class="row">
                             <!-- Single About Part Area Start -->
                             <div class="col-12 col-sm-6 col-md-12">
-                                <div class="single_about_part wow fadeInUp" data-wow-delay="0.2s">
-                                    <div class="feature_icon">
-                                        <i class="pe-7s-leaf" aria-hidden="true"></i>
-                                    </div>
-                                    <h3>Simple &amp; Light</h3>
+                                <div class="single_about_part wow fadeInUp">
+
+                                    <h3>Super &amp; Fast</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 </div>
                             </div>
                             <!-- Single About Part Area Start -->
                             <div class="col-12 col-sm-6 col-md-12">
-                                <div class="single_about_part wow fadeInUp" data-wow-delay="0.4s">
-                                    <div class="feature_icon">
-                                        <i class="pe-7s-bicycle" aria-hidden="true"></i>
-                                    </div>
-                                    <h3>Flexible</h3>
+                                <div class="single_about_part wow fadeInUp">
+
+                                    <h3>Make Purchases</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 </div>
                             </div>
                             <!-- Single About Part Area Start -->
                             <div class="col-12 col-sm-6 col-md-12">
-                                <div class="single_about_part wow fadeInUp" data-wow-delay="0.6s">
-                                    <div class="feature_icon">
-                                        <i class="pe-7s-rocket" aria-hidden="true"></i>
-                                    </div>
-                                    <h3>Super Fast</h3>
+                                <div class="single_about_part wow fadeInUp">
+
+                                    <h3>Send Money</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 </div>
                             </div>
                             <!-- Single About Part Area Start -->
                             <div class="col-12 col-sm-6 col-md-12">
-                                <div class="single_about_part wow fadeInUp" data-wow-delay="0.8s">
-                                    <div class="feature_icon">
-                                        <i class="pe-7s-science" aria-hidden="true"></i>
-                                    </div>
-                                    <h3>Stunning Design</h3>
+                                <div class="single_about_part wow fadeInUp">
+
+                                    <h3>Simple &amp; Easy</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 </div>
                             </div>
@@ -302,20 +294,20 @@
     <!-- ::::::::::::::::::::::::::: App Screenshot Area End ::::::::::::::::::::::::::: -->
 
 
-    <!-- ::::::::::::::::::::::::::: Features Area Start ::::::::::::::::::::::::::: -->
+    <!-- ::::::::::::::::::::::::::: Features Area Start ::::::::::::::::::::::::::: ->
     <div class="more_features_area section_padding_100_70" id="features">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <!-- Section Heading Start -->
+                    <!-- Section Heading Start ->
                     <div class="section_heading">
                         <h3>Repay <span>Benefits</span></h3>
-                        <!-- <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page. Put your app sales or promotions into next level with it.</p> -->
+                        <!-- <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page. Put your app sales or promotions into next level with it.</p> ->
                     </div>
                 </div>
             </div>
             <div class="row">
-                <!-- Single Benifits Area Start -->
+                <!-- Single Benifits Area Start ->
                 <div class="col-sm-6 col-lg-3">
                     <div class="single_benifits">
                         <div class="icon_box">
@@ -325,7 +317,7 @@
                         <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
                     </div>
                 </div>
-                <!-- Single Benifits Area Start -->
+                <!-- Single Benifits Area Start ->
                 <div class="col-sm-6 col-lg-3">
                     <div class="single_benifits">
                         <div class="icon_box">
@@ -335,7 +327,7 @@
                         <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
                     </div>
                 </div>
-                <!-- Single Benifits Area Start -->
+                <!-- Single Benifits Area Start ->
                 <div class="col-sm-6 col-lg-3">
                     <div class="single_benifits">
                         <div class="icon_box">
@@ -345,7 +337,7 @@
                         <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
                     </div>
                 </div>
-                <!-- Single Benifits Area Start -->
+                <!-- Single Benifits Area Start ->
                 <div class="col-sm-6 col-lg-3">
                     <div class="single_benifits active">
                         <div class="icon_box">
@@ -394,7 +386,7 @@
                         <h3>Retina Ready</h3>
                         <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
                     </div>
-                </div> -->
+                </div> ->
             </div>
         </div>
     </div>
@@ -1071,5 +1063,17 @@
     <script src="js/custom.js"></script>
 
 </body>
+{
+  "Version":"2012-10-17",
+  "Statement":[{
+    "Sid":"PublicReadGetObject",
+        "Effect":"Allow",
+      "Principal": "*",
+      "Action":["s3:GetObject"],
+      "Resource":["arn:aws:s3:::tryrepay.com/*"
+      ]
+    }
+  ]
+}
 
 </html>
